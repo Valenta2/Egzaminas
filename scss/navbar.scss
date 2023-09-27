@@ -1,0 +1,53 @@
+// Navigation bar
+nav {
+  position: fixed;
+  top: 0;
+  background: #1C1C1C;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+a {
+  color: #FFFFFF;
+  opacity: 0.69;
+}
+a:hover{
+  opacity: 1;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #FFFFFF;
+}
+.links a {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+}
+.links a::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background:#E27866;
+  position: absolute;
+  left: 0;
+  bottom: -17px;
+  transition: 0.3s;
+} 
+.links a:hover::after {
+  width: 100%;
+}
+.links a.active {
+  background:#41D395;
+  color: #333333;
+}
+#burger {
+  display: none;
+}

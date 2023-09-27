@@ -1,0 +1,28 @@
+// Social brands
+
+.brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 105px;
+}
+.social p {
+  width: 394px;
+  height: 38px;
+  font-size: 14px;
+  color: #86878B;
+}
+.social h3 {
+  color: #333333;
+}
+.media {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.signal {
+  width: 30px;
+  height: 30px;
+  color: #E27866;
+}

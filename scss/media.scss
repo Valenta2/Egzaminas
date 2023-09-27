@@ -1,0 +1,54 @@
+// Pristaikymo media 
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
+
+//SWIPER
+@media (min-width: 768px){
+  .swiper {
+    width: 768px;
+  }
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+// NAV MEDIA
+@media (max-width: 768px){
+  .links {
+      position: absolute;
+      left: 70%;
+      top: 53px;
+      // bottom: 100px;
+      background: lightcoral;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      transform: translateY(0%);
+      transition: 0.3s;
+  }
+
+  .showNav {
+      transform: translateY(0);
+  }
+
+  #burger {
+      cursor: pointer;
+      color: #E27866;
+      display: block;
+      transition: 0.3s;
+  }
+  #burger.rotate {
+      transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,125 @@
+// CUSTOMERS REVIEWS
+.customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  width: 1400px;
+  height: 591px;
+  }
+  .customerpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #1C1C1C;
+  }
+  .customerpanel h1:after {
+    content: "";
+    background: #6696E2;
+    margin: 40px auto;
+    // margin-top: 20px;
+    width: 0;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .customerpanel h1:hover:after {
+    width: 400px;
+  }
+  //SWIPER JS
+  .swiper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    min-width: 1000px;
+    height: 300px;
+    width: 600px;
+  }
+  // .swiper-wrapper {
+  //   display: flex;
+  //   align-items: center;
+  //   padding-bottom: 50px;
+  //   // min-width: 1000px;
+  //   height: 300px;
+  // }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .jeremyh {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #6696E2;
+    color: #FFFFFF;
+    width: 273px;
+    height: 147px;
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+  .jeremyh p {
+    font-size: 16px;
+  }
+  
+  .manager h2 {
+    font-size: 20px;
+    color: #333333;
+  }
+  .manager p {
+    font-size: 14px;
+    color: #86878B;
+  }
+  
+  .johns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6696E2;
+    color: #FFFFFF;
+    width: 273px;
+    height: 147px;
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+  .johns p{
+    font-size: 16px;
+  }
+  .freelancer h2 {
+    font-size: 20px;
+    color: #333333;
+  }
+  .freelancer p {
+    font-size: 14px;
+    color: #86878B;
+  }
+  .susanw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6696E2;
+    color: #FFFFFF;
+    width: 273px;
+    height: 147px;
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+  .susanw p{
+    font-size: 16px;
+  }
+  .photographer h2 {
+    font-size: 20px;
+    color: #333333;
+  }
+  .photographer p {
+    font-size: 14px;
+    color: #86878B;
+  }

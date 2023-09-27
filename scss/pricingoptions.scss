@@ -1,0 +1,108 @@
+//Pricing Options
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    width: 100%;
+    height: 800px;
+    background: #6696E2;
+  }
+  
+  .pricelist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    color: #FFFFFF
+  }
+  
+  .pricelist h1:after {
+    content: "";
+    background: #41D395;
+    margin: 20px auto;
+    width: 0;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+    
+  .pricelist h1:hover:after {
+    width: 250px;
+  }
+  
+  .pricing-grid h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+  }
+  
+  .features {
+    list-style: none;
+  }
+  
+  .basic, .professional, .enterprise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    border-radius: 5px 5px 0 0;
+    background: #1C1C1C;
+    color: white;
+  }
+  .head p {
+    color: #86878B;
+  }
+  
+  .head .price {
+    font: normal normal normal 94px/24px Montserrat;
+    color: white;
+  }
+  .features {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    color: #86878B;
+    width: 300px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  .features ul li {
+    color: #86878B;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  .features a {
+    text-decoration: none;
+    background:#FEFF00;
+    padding:10px;
+    color:black;
+    border-radius:4px;
+  }

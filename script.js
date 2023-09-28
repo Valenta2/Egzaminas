@@ -17,6 +17,12 @@ const swiper = new Swiper('.swiper', {
     }
   }
 });
+
+// FORM must be filled
+function myFunction() {
+    document.getElementById("firstname").required = true;
+    alert("All empty fields must be filled")
+  }
 //TABS SECTION
 var tabs = document.getElementsByClassName("tab")
 // hide tabs

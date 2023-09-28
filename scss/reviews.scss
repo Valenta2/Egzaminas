@@ -76,6 +76,9 @@
     color: #333333;
   }
   .manager p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     font-size: 14px;
     color: #86878B;
   }

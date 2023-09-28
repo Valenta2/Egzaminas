@@ -26,10 +26,10 @@ var tabs = document.getElementsByClassName("tab")
 function showTab(evt,id){
     for(var i = 0; i < tabs.length; i++){
         tabs[i].style.display = "none"
-        // tabs[i].classList.remove("active")
+        tabs[i].classList.remove("active")
     }
     document.getElementById(id).style.display = "block"
-    // tabs[i].classList.add("active")
+    tabs[i].classList.add("active")
 }
 
 
